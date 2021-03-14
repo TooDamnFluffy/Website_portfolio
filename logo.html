@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Logo Page</title>
+  <meta name="author" content="PlacidBeetle/Ellan">
+  <meta name="description" content="Bruh Moment">
+
+
+
+
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link rel="stylesheet" href="css/logo.css" type="text/css">
+
+
+
+
+
+
+</head>
+
+<body>
+
+  <div id="app">
+
+    <div class="logo-header" v-show="showTab">
+      <h1>EHNEL</h1>
+      <p>Portfolio</p>
+    </div>
+
+    <div class="logo-body columns is-multiline" v-show="showTab">
+
+      <!-- Skeleton for Cards
+      <div class="column is-one-third">
+        <div class="logo-card">
+          <img class="logo-img" v-on:click="toggleTab" src="kekpaimon.png" />
+          <h1>Bruh</h1>
+          <p>Bruh Description</p>
+        </div>
+      </div>
+      -->
+    </div>
+
+
+    <div class="logo-tab columns" style="display: none;" v-show="!showTab">
+      <div class="column is-two-thirds">
+        <div class="logo-img-tab">
+          <img class="" style="width: 100%; height: auto;" :src="imgTabURL" />
+        </div>
+      </div>
+      <div class="column">
+        <div class="logo-desc-tab">
+          <h1 style="display: inline-block;"> {{ imgTitle }} </h1>
+          <p v-on:click="closeTab" style="display: inline-block; float: right;"><i class="fas fa-times"></i></p>
+          <p> {{ imgDesc }} </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+  <script src="https://kit.fontawesome.com/29ac3b55f2.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/vue@next"></script>
+
+  <script src="js/preliminary.js"></script>
+  <script src="js/logo.js"></script>
+  <script>
+    var mountedApp;
+    function loadApp() { mountedApp = app.mount('#app'); }
+    window.addEventListener('dataLoaded', loadApp);
+  </script>
+
+
+
+</body>
+
+</html>

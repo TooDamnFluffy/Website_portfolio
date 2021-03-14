@@ -1,0 +1,74 @@
+html, body {
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
+  background-color: rgb(31, 52, 80);
+  color: white;
+  text-align: center;
+}
+
+/*====== Card CSS =====*/
+.universal-card {
+  background-color: black;
+}
+
+/*- First Column Cards -*/
+.logo-card {
+  margin-top: 300px;
+  color: white;
+}
+.logo-card h1 {font-weight: bold;font-size: 34px;}
+.logo-card a {color: white;}
+
+/* ON HOVER CSS */
+.logo-card:hover {
+  background-color: grey;
+  cursor: pointer;
+  transition: 0.2s;
+}
+/* --------------- */
+
+/*- Second Column Cards -*/
+.port-card {
+  margin-top: 140px;
+}
+.port-card h1 {font-weight: bold;font-size: 34px;}
+.port-card a {color: white;}
+
+.art-card {
+  margin-top: 420px;
+}
+.art-card h1 {font-weight: bold;font-size: 34px;}
+.art-card a {color: white;}
+
+/* ON HOVER CSS */
+.port-card:hover {
+  background-color: grey;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.art-card:hover {
+  background-color: grey;
+  cursor: pointer;
+  transition: 0.2s;
+}
+/* --------------- */
+
+/*- Third Column Cards -*/
+.game-card {
+  margin-top: 300px;
+}
+.game-card h1 {font-weight: bold;font-size: 34px;}
+.game-card a {color: white;}
+
+/* ON HOVER CSS */
+.game-card:hover {
+  background-color: grey;
+  cursor: pointer;
+  transition: 0.2s;
+}
+/* --------------- */
+.column {
+  padding: 30px;
+}
+/*====== END =====*/

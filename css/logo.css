@@ -1,0 +1,60 @@
+html, body {
+  background-color: rgb(31, 52, 80);
+  color: white;
+  text-align: center;
+}
+
+/*====== Header CSS =====*/
+.logo-header {
+  width: 100%;
+  background-color:rgb(20, 31, 46);
+  padding: 80px;
+}
+
+.logo-header h1 {font-size: 69px;font-weight: bold;}
+/*====== END CSS =====*/
+
+/*====== Body CSS =====*/
+/* Logo Cards CSS */
+.logo-body {
+  padding: 40px;
+  z-index: 0;
+}
+
+.logo-card {
+  padding: 60px;
+  background-color: rgb(20, 31, 46);
+  text-align: left;
+}
+.logo-img:hover {cursor: pointer;}
+.logo-card h1 {font-size: 40px;font-weight: bold;}
+
+/* Logo Tab CSS */
+.logo-tab {
+  padding: 2.5% 10.5% 2.5% 10.5%;
+  display: none;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+.logo-img-tab, .logo-desc-tab {
+  padding: 60px;
+  margin: 0px;
+  background-color: rgb(20, 31, 46);
+  text-align: left;
+}
+
+.logo-desc-tab h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+/*====== END CSS =====*/
+
+
+
+
+.column {
+  padding: 0px;
+}
